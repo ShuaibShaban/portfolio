@@ -5,7 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+// import colorSharp from "../assets/img/color-sharp.png"
 import  Wordpress  from "../assets/img/wordpress.png";
 import CSS from "../assets/img/css.png"
 import Figma from "../assets/img/figma.png"
@@ -125,7 +125,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        {/* <img className="background-image-left" src={colorSharp} alt="Image" /> */}
     </section>
   )
 }
