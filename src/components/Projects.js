@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import Project1 from "../assets/img/Project1.png";
 import Project2 from "../assets/img/Project2.png";
 import Project3 from "../assets/img/Project3.png";
+import ecommerce from "../assets/img/ecommerce.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import 'animate.css';
@@ -30,9 +31,9 @@ export const Projects = () => {
       imgUrl: Project3,
     },
     {
-      // title: "Business Startup",
-      // description: "Design & Development",
-      // imgUrl: projImg2,
+      title: "Ecommerce Website",
+      description: "Design & Development",
+      imgUrl: ecommerce,
     },
     {
       // title: "Business Startup",
@@ -50,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>In my portfolio, I showcase notable web development projects including a fully functional e-commerce website (HTML, CSS, JavaScript), a weather app (React.js), a task manager app (React.js, Redux), a responsive portfolio website (HTML, CSS, JavaScript), and a movie recommendation app (React.js, API). These projects exemplify my expertise in web development, demonstrating my ability to create engaging and functional applications.</p>
+                <p>In my portfolio, I showcase notable web development projects including a fully functional e-commerce website (React, CSS, Node js and MongoDB), a Cocktail DB App (HTML, CSS and javaScript), a Books Website (React.js, CSS and Ruby On Rails), a responsive portfolio website (HTML, CSS, JavaScript), and a Pets website(React.js, API and TailwindCSS). These projects showcase my expertise in web development, demonstrating my ability to create engaging and functional applications.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -79,7 +80,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>In my portfolio, I showcase notable web development projects, including a fully functional e-commerce website using (React.js, Rails, Redux and CSS) with product listings, shopping cart, and secure payments. I also created a React.js Books Application that enables users to keep track of the books they read and write awesome reviews on individual books. Additionally, I built a task manager (React.js) with prioritization, due dates, and task status. I designed a responsive portfolio website (React.js, Tailwindcss, Redux and Bootstrap) with smooth scrolling and interactive animations. These projects demonstrate my web development skills and ability to create engaging applications.</p>
+                      <p>In my portfolio, I showcase notable web development projects, including a fully functional e-commerce website using (React.js, Nodejs, MongoDB and CSS) with product listings, shopping cart, and secure payments. I also created a React.js Books Application that enables users to keep track of the books they read and write awesome reviews on individual books. Additionally, I built a task manager (React.js) with prioritization, due dates, and task status. I designed a responsive portfolio website (React.js, Tailwindcss, Redux and Bootstrap) with smooth scrolling and interactive animations. These projects demonstrate my web development skills and ability to create engaging applications.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>For more details, please check out my Git hub <a href="https://github.com/ShuaibShaban"><img src={navIcon3} className="w-{80} h-{80}" alt="Git hub" /></a></p>

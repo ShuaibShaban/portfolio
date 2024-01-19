@@ -49,7 +49,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>In the skills section of my portfolio, I showcase my proficiency in HTML, CSS, JavaScript, React.js, and my current focus on learning Flutter. With HTML, I excel in writing clean and semantic markup, implementing accessibility guidelines, and ensuring responsiveness across devices. CSS is another area of expertise, where I have gained experience in crafting visually captivating designs that adapt flawlessly to various screen sizes. This includes leveraging CSS3 features, incorporating animations, and employing advanced layout techniques.</p>
+                        <p>In the skills section of my portfolio, I showcase my proficiency in HTML, CSS, JavaScript, React.js, Nodejs TailwindCSS and my current focus on learning Nextjs and Perfecting my Node.js skills. With HTML, I excel in writing clean and semantic markup, implementing accessibility guidelines, and ensuring responsiveness across devices. CSS is another area of expertise, where I have gained experience in crafting visually captivating designs that adapt flawlessly to various screen sizes. This includes leveraging CSS3 features, incorporating animations, and employing advanced layout techniques.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             {/* <div className="item">
                                 <img src={meter1} alt="Image" />
