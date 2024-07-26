@@ -11,14 +11,15 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["Web Developer", "Web Designer"];
   const period = 2000;
 
-  const CV_File_Url = 'https://docs.google.com/document/d/1ybCNzI81m-YwG9BELmzwmvh_4JxSP56p7kewrZBYQ3Q/export?format=pdf'; 
+  const CV_File_Url =
+    "https://docs.google.com/document/d/1ybCNzI81m-YwG9BELmzwmvh_4JxSP56p7kewrZBYQ3Q/export?format=pdf";
 
   const downloadFileAtURL = (url) => {
-    window.open(url, '_blank');
-  }
+    window.open(url, "_blank");
+  };
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -75,7 +76,7 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
+                      data-rotate='[ "Web Developer", "Web Designer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>

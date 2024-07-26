@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import Project1 from "../assets/img/Project1.png";
+import prjscr1 from "../assets/img/prjscr1.png";
 import Project2 from "../assets/img/Project2.png";
 import Project3 from "../assets/img/Project3.png";
 import ecommerce from "../assets/img/ecommerce.png"
@@ -41,7 +41,7 @@ export const Projects = () => {
       id: "4",
       title: "Cocktail website",
       description: "Design & Development",
-      imgUrl: Project1,
+      imgUrl: prjscr1,
       linkUrl: "https://phase-1-final-project.vercel.app/",
     },
     {
