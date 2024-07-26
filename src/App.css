@@ -243,7 +243,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
 }
-
+/* 
 @keyframes static {
   0% {
     background-position: 0% 0%;
@@ -268,7 +268,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     background-position: 80% 91%;
   }
-}
+} */
 
 .tagline:hover{
 scale: 1.1;
