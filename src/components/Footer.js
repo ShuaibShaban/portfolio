@@ -11,7 +11,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <MailchimpForm />
           <Col size={12} sm={6}>
-            <p className="text-white  font-bold text-6xl ">Made with ❤️ </p>
+            {/* <p className="text-white  font-bold text-6xl ">Made with ❤️ </p> */}
 
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">

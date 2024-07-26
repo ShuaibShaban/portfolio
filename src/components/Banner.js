@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Imu from "../assets/img/imu.png";
+import Imu from "../assets/img/imu.jpeg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -102,8 +102,9 @@ export const Banner = () => {
                   className={
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
+                  id="banner-img"
                 >
-                  <img src={Imu} width={100} height={100} alt="Header Img" />
+                  <img src={Imu} width={40} height={70} alt="Header Img"/>
                 </div>
               )}
             </TrackVisibility>

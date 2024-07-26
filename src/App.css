@@ -317,10 +317,33 @@ cursor: pointer;
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
-  animation: updown 3s linear infinite;
+#banner-img::after {
+  /* animation: updown 3s linear infinite; */
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-bottom: 10px solid orangered;
+  border-right: 10px solid orangered;
+  right: -30px;
+  bottom: -40px;
 }
-@keyframes updown {
+
+#banner-img::before {
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-top: 10px solid orangered;
+  border-left: 10px solid orangered;
+  left: -30px;
+  top: -40px ;
+}
+
+#banner-img {
+  width: 80%;
+}
+/* @keyframes updown {
     0% {
         transform: translateY(-20px);
     }
@@ -333,7 +356,7 @@ cursor: pointer;
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
-}
+} */
 
 /************ Skills Css ************/
 .skill {

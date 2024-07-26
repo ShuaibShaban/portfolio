@@ -4,26 +4,26 @@ import { Col, Row, Alert } from "react-bootstrap";
 export const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState('');
 
-  useEffect(() => {
-    if (status === 'success') clearFields();
-  }, [status])
+  // useEffect(() => {
+  //   if (status === 'success') clearFields();
+  // }, [status])
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    email &&
-    email.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email
-    })
-  }
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   email &&
+  //   email.indexOf("@") > -1 &&
+  //   onValidated({
+  //     EMAIL: email
+  //   })
+  // }
 
-  const clearFields = () => {
-    setEmail('');
-  }
+  // const clearFields = () => {
+  //   setEmail('');
+  // }
 
   return (
       <Col lg={12}>
-        <div className="newsletter-bx wow slideInUp">
+        {/* <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
               <h3>Subscribe to our Newsletter<br></br> & Never miss latest updates</h3>
@@ -40,7 +40,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
               </form>
             </Col>
           </Row>
-        </div>
+        </div> */}
       </Col>
   )
 }

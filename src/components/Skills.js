@@ -15,11 +15,11 @@ import Html from "../assets/img/html.png"
 import postgres from "../assets/img/postgres.png"
 import postman from "../assets/img/postman.png"
 import rails from "../assets/img/rails.png"
-import slack from "../assets/img/slack.png"
+// import slack from "../assets/img/slack.png"
 import ruby from "../assets/img/ruby.png"
 import React from "../assets/img/react.png"
-import zoom from "../assets/img/zoom.webp"
-import meet from "../assets/img/meet.png"
+// import zoom from "../assets/img/zoom.webp"
+// import meet from "../assets/img/meet.png"
 
 export const Skills = () => {
   const responsive = {
@@ -107,18 +107,18 @@ export const Skills = () => {
                                 <img src={rails} alt="Image" />
                                 <h5>rails</h5>
                             </div>
-                            <div className="item">
+                            {/* <div className="item">
                                 <img src={slack} alt="Image" />
                                 <h5>slack</h5>
-                            </div>
-                            <div className="item">
+                            </div> */}
+                            {/* <div className="item">
                                 <img src={zoom} alt="Image" />
                                 <h5>zoom</h5>
-                            </div>
-                            <div className="item">
+                            </div> */}
+                            {/* <div className="item">
                                 <img src={meet} alt="Image" />
                                 <h5>meet</h5>
-                            </div>
+                            </div> */}
                             
                         </Carousel>
                     </div>
